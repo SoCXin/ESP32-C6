@@ -14,6 +14,9 @@ ESP32-S2 具有行业领先的低功耗管理与射频性能、IO 功能和安�
 
 ESP32-S2 仍然沿用了乐鑫已经非常成熟的软件开发框架 ESP-IDF，可以实现性能和成本的平衡，为市场带来更高速、更安全的物联网连接解决方案。
 
+[![sites](docs/ESP32-S2.png)](https://www.espressif.com/zh-hans/products/socs/esp32-s2)
+
+
 ### 关键参数：
 
 * Xtensa® 32-bit LX7 单核处理器，7 级流水线架构，时钟频率高达 240 MHz
@@ -30,8 +33,8 @@ ESP32-S2 仍然沿用了乐鑫已经非常成熟的软件开发框架 ESP-IDF，
 
 软件开发采用[ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html)工具框架
 
-
 ### [选型建议](https://github.com/SoCXin/ESP32-S2)
 
+[ESP32-S2](https://github.com/SoCXin/ESP32-S2) 可作为[ESP32](https://github.com/SoCXin/ESP32) 和[ESP8266](https://github.com/SoCXin/ESP8266)间的升级方案，补足了之前的短板，沿用了成熟的软件体系。
 
 ###  [SoC芯平台](http://SoC.Xin) 
