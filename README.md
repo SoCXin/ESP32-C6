@@ -26,7 +26,7 @@ ESP32-S2 仍然沿用了乐鑫已经非常成熟的软件开发框架 ESP-IDF，
 * 支持全速 USB OTG
 * 支持 8-/16-bit DVP 图像传感器接口，最高时钟频率支持到 40 MHz
 
-* 封装：QFN56 7⨉7
+* 封装：QFN56 7x7
 
 ### [资源收录](https://github.com/SoCXin/ESP32-S2)
 
@@ -36,4 +36,4 @@ ESP32-S2 仍然沿用了乐鑫已经非常成熟的软件开发框架 ESP-IDF，
 
 [ESP32-S2](https://github.com/SoCXin/ESP32-S2) 可作为[ESP32](https://github.com/SoCXin/ESP32) 和[ESP8266](https://github.com/SoCXin/ESP8266)间的升级方案，补足了之前的短板，沿用了成熟的软件体系。
 
-###  [SoC芯平台](http://www.SoC.Xin)
+###  [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
