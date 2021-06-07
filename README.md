@@ -3,7 +3,7 @@
 [![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
 * [Espressif](https://www.espressif.com/): [Xtensa LX7](https://github.com/SoCXin/MIPS)
-* [L5R4](https://github.com/SoCXin/Level): 240 MHz (150DMIPS/398CoreMark)
+* [L5R4](https://github.com/SoCXin/Level): 240 MHz x 2.5 DMIPS/MHz (330CoreMark)
 
 
 ### [简介](https://github.com/SoCXin/ESP32-S2/wiki)
@@ -15,14 +15,16 @@
 
 #### 关键参数
 
-* Xtensa® 32-bit LX7 单核处理器，7 级流水线架构，时钟频率高达 240 MHz
-* 320 KB SRAM，128 KB ROM，16 KB RTC 内存
-* 最大可支持 1 GB 外部 flash and SRAM
-* 支持 HT40，数据速率高达 150 Mbps
-* 支持全速 USB OTG
-* 支持 8-/16-bit DVP 图像传感器接口，最高时钟频率支持到 40 MHz
-* 43 个 GPIO
+* 240 MHz Xtensa® LX7 单核
+* 320 KB SRAM，128 KB ROM，16 KB RTC
+* 1 GB external flash
+* HT40 150 Mbps
+* USB OTG FS
+* 40 MHz 8-/16-bit DVP
+* 43 x GPIO
+* 超低功耗协处理器 (ULP)
 * 工作温度是 -40 °C~125 °C
+* QFN56 (7x7mm)
 
 ### [资源收录](https://github.com/SoCXin)
 
@@ -30,14 +32,11 @@
 * [参考文档](docs/)
 * [参考工程](project/)
 
-### [资源收录](https://github.com/SoCXin/ESP32-S2)
-
-软件开发采用[ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html)工具框架
-
 ### [选型建议](https://github.com/SoCXin/ESP32-S2)
 
-[ESP32-S2](https://github.com/SoCXin/ESP32-S2) 可作为[ESP32](https://github.com/SoCXin/ESP32) 和[ESP8266](https://github.com/SoCXin/ESP8266)间的升级方案，补足了之前的短板，沿用了成熟的软件体系。
+[ESP32-S2](https://github.com/SoCXin/ESP32-S2) 在[ESP32](https://github.com/SoCXin/ESP32) 基础上主要移除了蓝牙，增加了USB OTG。
 
-* 封装：QFN56 7x7
+[![sites](docs/diff.png)](https://maker.pro/esp8266/tutorial/a-comparison-of-the-new-esp32-s2-to-the-esp32)
+
 
 ### [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
