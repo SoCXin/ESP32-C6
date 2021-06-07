@@ -2,17 +2,13 @@
 
 [![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-#### [Vendor](https://github.com/SoCXin/Vendor)：[Espressif](https://www.espressif.com/)
-#### [Core](https://github.com/SoCXin/MIPS)：[Xtensa LX7](https://github.com/SoCXin/Tensilica)
-#### [Level](https://github.com/SoCXin/Level)：240MHz
+* [Espressif](https://www.espressif.com/): [Xtensa LX7](https://github.com/SoCXin/MIPS)
+* [L5R4](https://github.com/SoCXin/Level): 240 MHz (150DMIPS/398CoreMark)
 
-### [ESP32-S2描述](https://github.com/SoCXin/ESP32-S2/wiki)
 
-[ESP32-S2](https://github.com/SoCXin/ESP32-S2) 是一款安全可靠的低功耗、高集成 2.4 GHz Wi-Fi 系统级芯片 (SoC)，支持 Wi-Fi HT40 和多达 43 个 GPIO。ESP32-S2 搭载 Xtensa® 32-bit LX7 单核处理器，工作时钟频率高达 240 MHz。
+### [简介](https://github.com/SoCXin/ESP32-S2/wiki)
 
-ESP32-S2 具有行业领先的低功耗管理与射频性能、IO 功能和安全性能，是物联网、移动设备、可穿戴电子设备、智能家居等各种应用的理想选择。ESP32-S2 集成了 240 MHz Xtensa® 单核处理器，无需外接任何 MCU 即可独立满足各种互联设备的需求。
-
-ESP32-S2 仍然沿用了乐鑫已经非常成熟的软件开发框架 ESP-IDF，可以实现性能和成本的平衡，为市场带来更高速、更安全的物联网连接解决方案。
+[ESP32-S2](https://github.com/SoCXin/ESP32-S2) 是一款安全可靠的低功耗、高集成 2.4 GHz Wi-Fi 系统级芯片 (SoC)，支持 Wi-Fi HT40 和多达 43 个 GPIO。仍然沿用了乐鑫已经非常成熟的软件开发框架 ESP-IDF。
 
 [![sites](docs/ESP32-S2.png)](https://www.espressif.com/zh-hans/products/socs/esp32-s2)
 
@@ -25,8 +21,14 @@ ESP32-S2 仍然沿用了乐鑫已经非常成熟的软件开发框架 ESP-IDF，
 * 支持 HT40，数据速率高达 150 Mbps
 * 支持全速 USB OTG
 * 支持 8-/16-bit DVP 图像传感器接口，最高时钟频率支持到 40 MHz
+* 43 个 GPIO
+* 工作温度是 -40 °C~125 °C
 
-* 封装：QFN56 7x7
+### [资源收录](https://github.com/SoCXin)
+
+* [参考资源](src/)
+* [参考文档](docs/)
+* [参考工程](project/)
 
 ### [资源收录](https://github.com/SoCXin/ESP32-S2)
 
@@ -36,4 +38,6 @@ ESP32-S2 仍然沿用了乐鑫已经非常成熟的软件开发框架 ESP-IDF，
 
 [ESP32-S2](https://github.com/SoCXin/ESP32-S2) 可作为[ESP32](https://github.com/SoCXin/ESP32) 和[ESP8266](https://github.com/SoCXin/ESP8266)间的升级方案，补足了之前的短板，沿用了成熟的软件体系。
 
-###  [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
+* 封装：QFN56 7x7
+
+### [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
