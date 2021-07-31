@@ -5,7 +5,7 @@
 * [Espressif](https://www.espressif.com/): [Xtensa LX7](https://github.com/SoCXin/MIPS)
 * [L5R4](https://github.com/SoCXin/Level): 240 MHz x 2.5 DMIPS/MHz (330CoreMark)
 
-### [简介](https://github.com/SoCXin/ESP32-S2/wiki)
+### [xin简介](https://github.com/SoCXin/ESP32-S2/wiki)
 
 [ESP32-S2](https://github.com/SoCXin/ESP32-S2) 是一款安全可靠的低功耗、高集成 2.4 GHz Wi-Fi 系统级芯片 (SoC)，支持 Wi-Fi HT40 和多达 43 个 GPIO。仍然沿用了乐鑫已经非常成熟的软件开发框架 ESP-IDF。
 
@@ -19,11 +19,9 @@
 * HT40 150 Mbps
 * USB OTG FS
 * 40 MHz 8-/16-bit DVP
-* 43 x GPIO
-* 超低功耗协处理器 (ULP)
-* 工作温度是 -40 °C~125 °C
+* -40 °C~125 °C
 
-### [资源收录](https://github.com/SoCXin)
+### [xin资源](https://github.com/SoCXin)
 
 * [参考资源](src/)
 * [相关文档](docs/)
@@ -34,7 +32,7 @@
 
 [ESP32-S2](https://github.com/SoCXin/ESP32-S2) 在[ESP32](https://github.com/SoCXin/ESP32) 基础上主要移除了蓝牙，增加了USB OTG。
 
-#### 封装规格
+#### xin规格
 
 * QFN56 (7x7mm)
 
