@@ -1,14 +1,14 @@
 {
     "type":"SoC",
-    "name":"ESP32-S2",
-    "title": "Espressif ESP32-S2 SoC",
-    "description":"Espressif WiFi BLE SoC",
+    "name":"ESP32-C6",
+    "title": "Espressif ESP32-C6 SoC",
+    "description":"Espressif Wi-Fi/BLE SoC",
     "Core": {
-        "num": 1,
-        "type":"MIPS",
-        "Freq":240,
-        "DMIPS": 600,
-        "CoreMark": 330
+        "CoreNum": 2,
+        "Core":"Xtensa LX7",
+        "Fmax":160,
+        "DMIPS": 200,
+        "CoreMark": 500
     },
     "manufacturer": {
         "vendor":"Espressif",
@@ -16,18 +16,20 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/SoCXin/ESP32-S2.git"
+        "url": "https://github.com/SoCXin/ESP32C6.git"
     },
     "version":"1.0.0",
-    "series":["ESP32-S2"],
-    "package":["QFN56"],
-    "peripheral": ["ADC","DAC","USB","OTG","CAN","SDIO","USART","SPI","IIC"],
+    "series":["ESP32-C6"],
+    "package":["QFN40","QFN32"],
+    "peripheral": ["Wi-Fi","BLE","SDIO","UART","SPI","IIC"],
+    "ESD": {
+        "HBM": 2000,
+        "CDM": 500
+    },
     "keywords": [
-        "dev-platform",
-        "MIPS",
+        "RISC-V",
         "Espressif",
-        "Xtensa LX7",
-        "MAC10/100","DAC","SDIO","CAN","I2C","RTC","SPI",
+        "Wi-Fi","BLE","ADC","I2S","CAN","I2C","RTC","SPI","UART",
         "3.6V","1.8V"
     ]
 }

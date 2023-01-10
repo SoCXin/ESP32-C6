@@ -1,49 +1,31 @@
-﻿# [ESP32-S2](https://github.com/SoCXin/ESP32-S2)
+﻿# [ESP32-C6](https://doc.soc.xin/ESP32-C6)
 
-[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
+* [Espressif](https://www.espressif.com/): [RISC-V](https://github.com/SoCXin/RISC-V)
+* [L3R3](https://github.com/SoCXin/Level): 160 MHz 
 
-* [Espressif](https://www.espressif.com/): [Xtensa LX7](https://github.com/SoCXin/MIPS)
-* [L5R4](https://github.com/SoCXin/Level): 240 MHz x 2.5 DMIPS/MHz (330CoreMark)
+### [简介](https://github.com/SoCXin/ESP32C6/wiki)
 
-### [xin简介](https://github.com/SoCXin/ESP32-S2/wiki)
-
-[ESP32-S2](https://github.com/SoCXin/ESP32-S2) 是一款安全可靠的低功耗、高集成 2.4 GHz Wi-Fi 系统级芯片 (SoC)，支持 Wi-Fi HT40 和多达 43 个 GPIO。仍然沿用了乐鑫已经非常成熟的软件开发框架 ESP-IDF。
-
-[![sites](docs/ESP32-S2.png)](https://www.espressif.com/zh-hans/products/socs/esp32-s2)
-
+[ESP32-C6](https://github.com/SoCXin/ESP32C6) 是乐鑫首款支持 Wi-Fi 6 的 SoC，集成 2.4 GHz Wi-Fi 6、Bluetooth 5 (LE) 和 802.15.4 协议，能够为物联网产品提供行业领先的射频性能、完善的安全机制和丰富的内存资源。
 
 #### 关键参数
 
-* 320 KB SRAM，128 KB ROM，16 KB RTC
-* 1 GB external flash
-* HT40 150 Mbps
-* USB OTG FS
-* 40 MHz 8-/16-bit DVP
-* -40 °C~125 °C
+* 160 MHz RISC-V RV32IC
+* 512 KB SRAM (TCM)，384 KB ROM
+* 802.11ax HE20 MCS-9 < 114.7 Mbps
+* 802.11b/g/n HT40 MCS-7 < 150 Mbps
+* QFN40
 
-### [xin资源](https://github.com/SoCXin)
+Open Source SDK [ESP-IDF](https://github.com/espressif/esp-idf)
+
+### [资源收录](https://github.com/SoCXin)
 
 * [参考资源](src/)
-* [相关文档](docs/)
-* [典型应用](project/)
-* [入门教程](https://docs.soc.xin/ESP32-S2)
+* [参考文档](docs/)
+* [参考工程](project/)
 
-### [选型建议](https://github.com/SoCXin/ESP32-S2)
+### [选型建议](https://github.com/SoCXin/ESP32S3)
 
-[ESP32-S2](https://github.com/SoCXin/ESP32-S2) 在[ESP32](https://github.com/SoCXin/ESP32) 基础上主要移除了蓝牙，增加了USB OTG。
+[ESP32-C6](https://github.com/SoCXin/ESP32S3) 
 
-#### xin规格
 
-* QFN56 (7x7mm)
-
-[![sites](docs/diff.png)](https://maker.pro/esp8266/tutorial/a-comparison-of-the-new-esp32-s2-to-the-esp32)
-
-### 验证开发板
-
-[![sites](docs/B.jpg)](https://item.taobao.com/item.htm?spm=a230r.1.14.31.49abe7241Iti7F&id=621845112434&ns=1&abbucket=19#detail)
-
-#### 高可用度开源项目
-
-* [ESP-IDF](https://github.com/espressif/esp-idf)
-
-### [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
+### [www.SoC.xin](http://www.SoC.Xin)
