@@ -11,8 +11,10 @@
 
 * 160 MHz RISC-V RV32IC
 * 512 KB SRAM (TCM)，384 KB ROM
+* Bandwidth 150 Mbps
 * 802.11ax HE20 MCS-9 < 114.7 Mbps
 * 802.11b/g/n HT40 MCS-7 < 150 Mbps
+* 支持802.15.4协议，支持Thread、Matter
 * QFN40
 
 Open Source SDK [ESP-IDF](https://github.com/espressif/esp-idf)
@@ -25,7 +27,7 @@ Open Source SDK [ESP-IDF](https://github.com/espressif/esp-idf)
 
 ### [选型建议](https://github.com/SoCXin/ESP32S3)
 
-[ESP32-C6](https://github.com/SoCXin/ESP32S3) 
+[ESP32-C6](https://github.com/SoCXin/ESP32S3) 拥有 30 个 (QFN40) 或 22 个 (QFN32) 可编程 GPIO 管脚，支持 SPI、UART、I2C、I2S、RMT、TWAI、PWM、电机控制 PWM 和 SDIO。它还集成了一个 12 位 ADC 和一个温度传感器。
 
 
 ### [www.SoC.xin](http://www.SoC.Xin)

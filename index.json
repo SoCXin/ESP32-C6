@@ -4,8 +4,8 @@
     "title": "Espressif ESP32-C6 SoC",
     "description":"Espressif Wi-Fi/BLE SoC",
     "Core": {
-        "CoreNum": 2,
-        "Core":"Xtensa LX7",
+        "CoreNum": 1,
+        "Core":"RISC-V",
         "Fmax":160,
         "DMIPS": 200,
         "CoreMark": 500
