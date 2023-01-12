@@ -21,7 +21,7 @@
     "version":"1.0.0",
     "series":["ESP32-C6"],
     "package":["QFN40","QFN32"],
-    "peripheral": ["Wi-Fi","BLE","SDIO","UART","SPI","IIC"],
+    "peripheral": ["Wi-Fi6","BLE","SDIO","UART","SPI","IIC"],
     "ESD": {
         "HBM": 2000,
         "CDM": 500
@@ -29,7 +29,7 @@
     "keywords": [
         "RISC-V",
         "Espressif",
-        "Wi-Fi","BLE","ADC","I2S","CAN","I2C","RTC","SPI","UART",
+        "Wi-Fi6","BLE","ADC","I2S","CAN","I2C","RTC","SPI","UART",
         "3.6V","1.8V"
     ]
 }

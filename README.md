@@ -1,7 +1,7 @@
 ﻿# [ESP32-C6](https://doc.soc.xin/ESP32-C6)
 
 * [Espressif](https://www.espressif.com/): [RISC-V](https://github.com/SoCXin/RISC-V)
-* [L3R3](https://github.com/SoCXin/Level): 160 MHz 
+* [L3R3](https://github.com/SoCXin/Level): 160 MHz
 
 ### [简介](https://github.com/SoCXin/ESP32C6/wiki)
 
@@ -25,9 +25,10 @@ Open Source SDK [ESP-IDF](https://github.com/espressif/esp-idf)
 * [参考文档](docs/)
 * [参考工程](project/)
 
-### [选型建议](https://github.com/SoCXin/ESP32S3)
+### [选型建议](https://github.com/SoCXin/ESP32C6)
 
-[ESP32-C6](https://github.com/SoCXin/ESP32S3) 拥有 30 个 (QFN40) 或 22 个 (QFN32) 可编程 GPIO 管脚，支持 SPI、UART、I2C、I2S、RMT、TWAI、PWM、电机控制 PWM 和 SDIO。它还集成了一个 12 位 ADC 和一个温度传感器。
+[ESP32-C6](https://github.com/SoCXin/ESP32C6) 拥有 30 个 (QFN40) 或 22 个 (QFN32) 可编程 GPIO 管脚，支持 SPI、UART、I2C、I2S、RMT、TWAI、PWM、电机控制 PWM 和 SDIO。它还集成了一个 12 位 ADC 和一个温度传感器。
 
+主要的应用方向是低功耗和抗干扰能力强，可以实现大量设备连接。
 
 ### [www.SoC.xin](http://www.SoC.Xin)
